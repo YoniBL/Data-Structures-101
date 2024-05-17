@@ -20,6 +20,11 @@ Welcome to **Data Structures 101**! This project provides implementations of var
 
 Understanding data structures is crucial for efficient algorithm design and problem-solving in computer science. This project covers a range of data structures, each with its own unique properties and use cases. The implementations are kept straightforward to facilitate learning and provide clear insights into how these data structures work under the hood.
 
+This project consists the implementation of the Linked List, Set (via Hash table) and Binary Search Tree as they are very basic data structures for everyday use. In C we do not have any easy way to import a package that consists these unlike other programming languages, and I found it very useful to know these, 
+A slightly more advanced data structures we have here are the Fibonacci Heap and the List (implemented via AVL Tree). 
+These ones are implemented via more elite languages with Python and Java being a more comfortable tool to implement slightly more advanced logic based data structures. 
+
+
 ## Data Structures
 
 ### Linked List (C)
@@ -39,7 +44,7 @@ A Linked List is a linear data structure where elements are stored in nodes, and
 A Binary Search Tree (BST) is a tree data structure where each node has at most two children, referred to as the left child and the right child. For each node, the left subtree contains only nodes with keys less than the node’s key, and the right subtree contains only nodes with keys greater than the node’s key. BSTs are used for efficient searching, insertion, and deletion operations.
 
 **Features**:
-- Logarithmic time complexity for search, insertion, and deletion
+- Logarithmic time complexity for search, insertion, and deletion (On average)
 - In-order traversal results in sorted order of elements
 
 - **Directory**: `C/BinarySearchTree`
